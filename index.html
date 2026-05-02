@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Полина Ивановна Бойко — Письма памяти</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <h1>Бойко Полина Ивановна</h1>
+      <p>
+        С любовью и уважением собраны поздравления и теплые слова из писем памяти.
+      </p>
+    </section>
+    <section id="letters" class="letters"></section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightboxPrev" class="lightbox-nav lightbox-nav--prev" aria-label="Предыдущее изображение">‹</button>
+    <button id="lightboxClose" aria-label="Закрыть просмотр">×</button>
+    <img id="lightboxImage" alt="Увеличенное изображение письма" />
+    <button id="lightboxNext" class="lightbox-nav lightbox-nav--next" aria-label="Следующее изображение">›</button>
+  </div>
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Наверх">↑</button>
+
+  <script src="src/main.js"></script>
+</body>
+</html>
